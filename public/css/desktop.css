@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 96%;
+  background-color: white;
+  margin: 0;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  font-family: 'Roboto';
+}
+
+.content {
+  flex: 1 1 auto;
+  background-color: #464646;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+#version {
+  flex: 0 1 2%;
+  background-color: black;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
